@@ -26,10 +26,15 @@ Through this project, I gained experience in:
 
 terraform/
 ├── main.tf # Root configuration that calls the module
+
 ├── modules/
+
 │ └── payroll/
+
 │ ├── main.tf # Declares AWS resources
+
 │ ├── variables.tf # Module input variables
+
 │ └── outputs.tf # Module output values
 
 
@@ -89,6 +94,7 @@ This project is open source and available under the MIT License.
 ## Acknowledgments
 
 This project was developed as part of the Ironhack DevOps and Cloud Computing curriculum and is intended to demonstrate practical skills in Terraform and AWS.
+
 
 
 
