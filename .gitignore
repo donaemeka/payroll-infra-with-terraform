@@ -1,0 +1,22 @@
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+
+# Environment files
+.env
+.env.*
